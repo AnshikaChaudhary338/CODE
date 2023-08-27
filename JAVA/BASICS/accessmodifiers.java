@@ -22,7 +22,7 @@
 //Encapsulation
 //It is the process of wrapping the code and data together.
 
-public class carss {
+public class accessmodifiers {
        private String color;
         void setcolor(String col)
         {
@@ -36,8 +36,8 @@ public class carss {
 
     public static void main(String[]args)
     { 
-       carss c=new carss();
-       c.setcolor("Red");
-       System.out.println(c.getcolor());
+       accessmodifiers sc=new accessmodifiers();
+       sc.setcolor("Red");
+       System.out.println(sc.getcolor());
     }
 }
