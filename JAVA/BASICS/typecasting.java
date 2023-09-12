@@ -23,14 +23,14 @@ System.out.println("After conversion, float value "+z);
 //            double -> float -> long -> int -> char -> short -> byte  
 
 public class typecasting {
-public static void main (String args[]) {
-long x = 40009;
-//converting the long data type to float data type 
-float  f  = (float)x;
-//converting float data type to int data type 
-int i = (int )f;
-System.out.println("value of long data type given is "+x);   
-System.out.println("converted value of long dtype to float "+f) ;
-System.out.println("value of float dtype to int "+i);
-}
+    public static void main(String args[]) {
+        long x = 40009;
+        // converting the long data type to float data type
+        float f = (float) x;
+        // converting float data type to int data type
+        int i = (int) f;
+        System.out.println("value of long data type given is " + x);
+        System.out.println("converted value of long dtype to float " + f);
+        System.out.println("value of float dtype to int " + i);
+    }
 }
