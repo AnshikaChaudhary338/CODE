@@ -1,4 +1,5 @@
-public class Factorial1 {
+
+class Factorial1 {
     public static int factorial ( int n) {
         int f = 1;
 
