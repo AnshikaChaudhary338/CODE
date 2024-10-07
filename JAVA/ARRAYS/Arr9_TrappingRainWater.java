@@ -19,7 +19,7 @@ public class Arr9_TrappingRainWater {
         }
         int trappedwater = 0;
         for (int i = 0; i < height.length; i++) {
-            int waterlevel = Math.min(leftmax[i], rightmax[i]);
+            int waterlevel = Math.min(leftmax[i], rightmax[ i]);
 
             trappedwater = trappedwater + (waterlevel - height[i]);
         }

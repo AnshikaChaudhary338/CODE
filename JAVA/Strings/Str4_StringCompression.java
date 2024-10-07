@@ -1,6 +1,6 @@
 package JAVA.Strings;
 
-public class StringCompression {
+public class Str4_StringCompression {
     public static String compression(String str) {
         String newstr = "";
         for (int i = 0; i < str.length(); i++) {

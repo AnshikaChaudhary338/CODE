@@ -1,6 +1,6 @@
 package JAVA.Strings;
 
-public class String_is_Palindrone {
+public class Str2_String_is_Palindrone {
     public static boolean isPalindrone(String str){
         for( int i=0;i<str.length()/2;i++){
             int n = str.length();

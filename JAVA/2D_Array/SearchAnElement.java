@@ -5,7 +5,7 @@ public class SearchAnElement {
         for( int i=0;i<matrix.length;i++){
             for( int j=0;j<matrix[0].length;j++){
                 if( matrix[i][j] == key){
-                    System.out.print( " element is found at " + i  + j + " ");
+                    System.out.print( " element is found at : " + "(" + i + "," + j + ") ");
                     return true;
                 }
             }
@@ -16,7 +16,7 @@ public class SearchAnElement {
         int matrix[][] = new int[3][3];
         int n = matrix.length,m= matrix[0].length;
         Scanner sc = new Scanner(System.in);
-        for( int i=0;i<n;i++){
+        for( int i=0;i<n;i++){ 
             for( int j=0;j<m;j++){
                 matrix[i][j] = sc.nextInt();
             }

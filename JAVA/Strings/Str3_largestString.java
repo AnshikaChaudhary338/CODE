@@ -1,6 +1,6 @@
 package JAVA.Strings;
 
-public class largestString {
+public class Str3_largestString {
     public static void main(String[] args) {
         String fruits[]= {" Apple" , " Mango" , " Banana"};
 

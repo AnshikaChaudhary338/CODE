@@ -1,6 +1,6 @@
 package JAVA.Strings;
 
-public class Shortest_Path {
+public class Str1_Shortest_Path {
     public static float shortestPath( String path){
         int x = 0;
         int y = 0;

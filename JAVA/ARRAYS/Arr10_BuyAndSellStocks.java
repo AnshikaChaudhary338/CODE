@@ -6,7 +6,7 @@ public class Arr10_BuyAndSellStocks {
         int maxProfit = 0;
 
         for(int i=0;i<prices.length;i++){
-            if( buyprice < prices[i]){
+            if( buyprice < prices[i]){ //profit
                 int profit = prices[i] - buyprice; //today PROFIT
                 maxProfit = Math.max(maxProfit, profit);
             }
